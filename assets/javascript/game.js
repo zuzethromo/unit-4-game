@@ -4,8 +4,6 @@ let totalScore = 0;
 
 let startGame = function () {
 
-    // $(".crystals").empty();
-
     randomNumber = Math.floor(Math.random() * 101) + 19;
 // console.log(randomNumber);
 $(".numberRandom").html('Reach this Number: ' + randomNumber);
@@ -17,7 +15,6 @@ for(let i = 0; i < 4; i++){
 
 }
 }
-
 startGame();
 
 $(".crystals").on('click', function() {
