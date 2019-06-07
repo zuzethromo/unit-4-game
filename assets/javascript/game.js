@@ -12,8 +12,8 @@ $(".numberRandom").html('Reach this Number: ' + randomNumber);
 
 for(let i = 0; i < 4; i++){
 
- crystalNumber = Math.floor(Math.random() * 11) + 1;
-// console.log(crystalNumber);
+    crystalNumber = Math.floor(Math.random() * 11) + 1;
+    console.log(crystalNumber);
 
 }
 }
